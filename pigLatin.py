@@ -1,5 +1,5 @@
 #English to Pig Latin
-print('Enter an English Message to transalte into Pig Latin: ')
+print( "\n" 'Enter an English Message to transalte into Pig Latin: ')
 
 message = input()
 
