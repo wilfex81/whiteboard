@@ -15,7 +15,7 @@ Given the string ..R...L.L, you should return ..RR.LLLL.
 from typing import List
 
 
-def get_config_helper(dominos: List[str], length: int) -> List[str]:
+def get_config_helper(dominos: List[str], length: int) -> List[str]:  
     has_been_updated = False
     updated_dominos = dominos.copy()
     for i in range(length):
